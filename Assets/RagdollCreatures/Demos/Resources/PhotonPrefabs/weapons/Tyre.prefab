@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7495824638804429185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1538042827, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ddde2703033597843ae08ce399b678f2, type: 3}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.231
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473396, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473398, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_Name
+      value: Tyre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759103884160473398, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3591308914249848186, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: hitDelay
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334876419099731366, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+--- !u!1 &8101715569594208439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1759103884160473398, guid: 379f164483382ff4da6a06e7d2213a02, type: 3}
+  m_PrefabInstance: {fileID: 7495824638804429185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &8621040169423082768
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101715569594208439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.05, y: 0.39}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18, y: 0.07}
+  m_EdgeRadius: 0

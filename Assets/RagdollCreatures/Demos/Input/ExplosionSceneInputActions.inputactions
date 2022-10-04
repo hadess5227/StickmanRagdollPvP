@@ -1,0 +1,71 @@
+{
+    "name": "ExplosionSceneInputActions",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "007a00af-b96a-4329-aac8-1816b1d74f5b",
+            "actions": [
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "1eecd453-7a57-4490-8e31-9b51c71bf3cd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Explosion",
+                    "type": "Button",
+                    "id": "fb3150b4-f137-423b-93fa-d903dbbcdaf3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SwitchRagdoll",
+                    "type": "Button",
+                    "id": "a942e605-d9db-47b1-96fc-c1aa6ecdd180",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0dbbbef3-4a97-4332-823a-bca8cefe70c3",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e657fe15-9b75-47d4-bfc6-4106b342011e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Explosion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47ae3c1e-17a3-4147-9eeb-f1e5434d617d",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchRagdoll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
